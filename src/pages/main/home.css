@@ -1,0 +1,9 @@
+.homediv{
+    margin-top: 80px;
+    padding-top: 60px;
+    margin-left: calc(10% + 36px);
+    margin-right: calc(10% + 36px);
+    display: flex;
+    flex-direction: column;
+    gap: 6rem;
+}

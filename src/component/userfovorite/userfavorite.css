@@ -1,0 +1,27 @@
+.cart-parent-div{
+    
+    min-width: 18rem;
+}
+/* .user-favorite-div{
+    margin-bottom: 140px;
+} */
+.display-card{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+}
+.display-card::-webkit-scrollbar{
+    -webkit-appearance: none;
+}
+.userfavorite-heading-icons{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.userfavorite-icons{
+    display: flex;
+    gap: 10px;
+}
+

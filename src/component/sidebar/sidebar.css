@@ -1,0 +1,75 @@
+/* Hide arrows in Chrome, Safari, Edge, and Opera */
+input[type='number']::-webkit-outer-spin-button,
+input[type='number']::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.sidebar-active {
+    display: block;
+}
+.sidebar-inactive{
+    display: none;
+}
+/* Hide arrows in Internet Explorer */
+input[type='number'] {
+  -ms-appearance: textfield;
+}
+.sidebar{
+    background-color: white;
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    padding-left: 40px;
+    padding-right: 75px;  
+    z-index: 1000;
+    
+}
+.signup, .login{
+    width: 360px;
+    /* transition: width 2s ease-in-out; */
+}
+.sidebar-content > :nth-child(1) {
+    margin: 20px 0px
+}
+.sidebar-content > :nth-child(2){
+    margin-bottom: 50px;
+   
+}
+.sidebar-content > :nth-child(2) h1{
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.sidebar-content > :nth-child(2) span{
+    font-size: 14px;
+    font-weight: 500;
+    color: #fc8019;
+}
+.sidebar-content > :nth-child(2) span:hover{
+    cursor: pointer;
+}
+.overlay {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: 999;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: background-color 0.5s ease-in-out;
+    pointer-events: none;
+}
+input:not([type="submit"]){
+    width: 90%;
+    padding: 18px 15px;
+    outline: none;
+    margin-bottom: 2px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.button-sl{
+    width: 100%;
+    padding: 18px 10px;
+    background-color: #fc8019;
+    color: white;
+    border: none;
+}
+

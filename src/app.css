@@ -1,0 +1,120 @@
+* {
+    font-family: 'Gilroy', sans-serif
+}
+.heading{
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -0.4px;
+    color: rgba(2, 6, 12, 0.92);
+}
+@media only screen and (max-width: 980px){
+    .cart-parent-div{
+    
+        min-width: 15.5rem !important;
+    }
+    .view-restaurant-page{  
+        max-width: 800px !important;
+        margin: 80px 10px !important;
+    }
+    .homediv{
+        margin-left: 10px !important;
+        margin-right: 10px !important;   
+    }
+    .heading{
+        font-size: 20px;
+    }
+    .content-text-offer{
+        font-size: 15px;
+    }
+    .card-resto-name {
+        font-family: 'Gilroy', sans-serif;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+        letter-spacing: -0.3px;
+        color: rgba(2, 6, 12, 0.92);
+        overflow: hidden;
+        width: 100%;
+    }
+    .search-page{
+        max-width: calc(100vw - 50px) !important;
+        margin: auto !important;
+    }
+    .staricon,.star-icon-div{
+        max-width: 25px;
+        max-width: 25px;
+        
+    
+    }
+    
+    
+    .ratingtime{
+        font-weight: 600;
+        font-size: 18px;
+    }
+    .card-description-address{
+        font-weight: 400;
+        font-size: 16px;
+    }
+}   
+@media only screen and (max-width: 730px){
+    .cart-parent-div{
+    
+        min-width: 10.5rem;
+    }
+    .heading{
+        font-size: 17px;
+    }
+    .content-text-offer{
+        font-size: 13px;
+    }
+   
+    .homediv{
+        margin-left: 5px;
+        margin-right: 5px;   
+    }
+    .ratingtime{
+        font-weight: 600;
+        font-size: 14px;
+    }
+    .card-description-address{
+        font-weight: 400;
+        font-size: 12px;
+    }
+    .card-display-div{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr) !important;
+        
+    }
+}
+@media only screen and (max-width: 450px){
+    .cart-parent-div{
+        min-width: 9rem;
+    }
+    .heading{
+        font-size: 14px;
+    }
+    .content-text-offer{
+        font-size: 11px;
+    }
+    .card-display-div{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr) !important;
+        
+    }
+    .homediv{
+        margin-left: 5px !important ;
+        margin-right: 5px !important;   
+    }
+    .ratingtime{
+        font-weight: 600;
+        font-size: 12px;
+    }
+    .card-description-address{
+        font-weight: 400;
+        font-size: 10px;
+    }
+}
+

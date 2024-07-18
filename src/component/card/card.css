@@ -1,0 +1,88 @@
+.card{
+    grid-auto-flow: row;
+}
+.card:hover{
+    cursor: pointer;
+}
+.imgdiv{
+    position: relative;
+
+}
+.imgdiv img{
+    object-fit: cover;
+    border-radius: 16px;
+    aspect-ratio: 16/9;
+}
+.content-text-offer-div{
+    text-align: start;
+    position: absolute;
+    height: 50px;
+    bottom: 0px;
+    width: 100%;
+    background: linear-gradient(rgba(27, 30, 36, 0) 0%, rgb(27, 30, 36) 84.21%);
+    line-height: 22px;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+}
+.content-text-offer{
+    font-weight: 800;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.92);
+    overflow-wrap: break-word;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    margin-left: 12px;
+}
+.card-description {
+    display: grid;
+    padding-left: 10px;
+    align-items: center;
+    gap:2px;
+    justify-self: start;
+    margin-top: 10px;
+
+}
+.card-resto-name {
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.3px;
+    color: rgba(2, 6, 12, 0.92);
+    overflow: hidden;
+    width: 100%;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow-wrap: break-word;
+    text-overflow: ellipsis;
+}
+
+.staricon,.star-icon-div{
+    max-width: 25px;
+    max-width: 25px;
+    
+
+}
+
+
+.ratingtime{
+    margin-top: 2px;
+    font-size: 'Gilroy', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.3px;
+    color: rgba(2, 6, 12, 0.92);
+}
+.rating-time-main-div{
+    display: flex
+}
+.card-description-address{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.3px;
+    color: rgba(2, 6, 12, 0.6);
+}
